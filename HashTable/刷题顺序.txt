@@ -1,0 +1,44 @@
+当我们想使用哈希法来解决问题的时候，我们一般会选择如下三种数据结构
+数组(Array) 集合(Set) 映射(Map)
+
+在java中的特殊情况
+HashMap, HashSet是非线性安全 性能更高 在单线程操作中使用HashMap和HashSet性能更优秀
+Hashtable不允许键值为null, HashMap和HashSet可以运行null元素存在
+本质上，这类存储结构都不能修改键(HashSet只有一个键 所以不能修改) 而存在键对的情况下可以修改值
+
+HashSet是基于哈希表实现的集合类，用于存储唯一元素
+实现了 Set 接口，不存储键值对，只存储对象本身
+
+有效的字母异位词
+No242
+(*Mid 复习)No49
+(*Mid 看新解法)No438
+
+赎金信
+No383
+
+两个数组的交集
+No349
+No350
+
+快乐数
+No202
+
+两数之和
+No1 (哈哈)
+
+四数相加
+No454
+
+三数之和
+No15
+
+四数之和
+No18
+
+哈希表有点东西的 明天再研究一下3数和 4数和 4数List相加
+
+研究完了 感觉写起来很简单但是想起来很复杂 后期复习整理一下
+什么时候Arrays.sort 什么时候用map set 用普通array 各个成员的方法
+最典的map.stream().mapToInt(x -> x).toArray();和new ArrayList<>(map.values());
+
